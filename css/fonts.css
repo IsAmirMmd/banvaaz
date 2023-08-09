@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Banvaaz;
+  src: url(../assets/fonts/IRANSansXRegular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Banvaaz;
+  src: url(../assets/fonts/IRANSansXBold.ttf);
+  font-weight: 700;
+}
+* {
+  font-family: Banvaaz;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  color: var(--body-color);
+}
+h1 {
+  color: var(--secodary-color);
+  font-size: 3rem;
+}
+h2 {
+  color: var(--secodary-color);
+  font-size: 2.5rem;
+}
+h3,
+h5,
+h6 {
+  color: var(--secodary-color);
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 2.6rem;
+  }
+  h1 {
+    font-size: 6.5rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+}

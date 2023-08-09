@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="assets/image/fav.png" type="image/x-icon" />
+    <title>ورود</title>
+  </head>
+  <body class="body-loginpage">
+    <!-- header -->
+    <header class="main-header">
+      <nav class="navbar container">
+        <div class="navbar__logo">
+          <a href="index.html"
+            ><img src="assets/image/Logo-blue.svg" alt="لوگو"
+          />
+        </div>
+        <span>بانواز</span></a>
+      </nav>
+    </header>
+    <!-- main-body -->
+    <section class="login block">
+      <div class="login-form">
+        <div class="login__links">
+          <a href="login.html" class="btn btn--primary">ورود به سایت</a>
+          <a href="register.html" class="btn btn--secondary">عضویت در سایت</a>
+        </div>
+        <div class="form">
+          <div class="form__img">
+            <img src="assets/image/user-avatar.svg" alt="آواتار پیش‌فرض" />
+          </div>
+          <form action="">
+            <input
+              type="text"
+              placeholder="ایمیل یا شماره موبایل را وارد کنید&bull;&bull;&bull;"
+              required
+            />
+            <input
+              type="password"
+              placeholder="رمز عبور خود را وارد کنید&bull;&bull;&bull;"
+              required
+            />
+            <div class="labe-checkbox">
+              <div class="checkbox-wrapper">
+                <input
+                  data-val="true"
+                  data-val-required="'Remember Me' must not be empty."
+                  id="RememberMe"
+                  name="RememberMe"
+                  type="checkbox"
+                  value="true"
+                /><input name="RememberMe" type="hidden" value="false" />
+                <span class="checkbox-element"></span>
+              </div>
+              <label for="RememberMe" class="color-secondary"
+                >ذخیره اطلاعات برای ورود بعدی</label
+              >
+            </div>
+            <div class="labe-checkbox cursor--pointer">
+              <i class="fa-solid fa-key"></i>
+              <span>رمز را فراموش کرده‌ام</span>
+            </div>
+            <a href="dashboard.html" class="btn btn--primary">ورود</a>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="main-footer-loginpage padding-1">
+      <a href="about-us.html"><span>درباره ما</span></a>
+      <a href="contact-us.html"><span>تماس با ما</span></a>
+      <a href="FAQ.html"><span>پرسش های متداول</span></a>
+      <a href="private.html"><span>حریم شخصی</span></a>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
